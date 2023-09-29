@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_foreground"/>
+    <item
+        android:id="@+id/nav_refer"
+        android:title="Refer"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_foreground"/>
+    <item
+        android:id="@+id/nav_aboutUs"
+        android:title="AboutUs"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_foreground"/>
+</menu>

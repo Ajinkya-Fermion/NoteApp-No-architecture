@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NoteAppAJKotlin" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowAnimationStyle">
+            @style/MyCustomActivityAnimation</item>
+    </style>
+
+    <style name="Theme.NoteAppAJKotlin" parent="Base.Theme.NoteAppAJKotlin" />
+
+    <style name="MyCustomActivityAnimation"
+        parent="@android:style/Animation.Activity">
+
+        <!--    transitions for Activities    -->
+        <item name="android:activityOpenEnterAnimation">
+            @anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">
+            @anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">
+            @anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">
+            @anim/slide_out_right</item>
+
+        <!--    transition for fragments    -->
+<!--        <item name="android:fragmentOpenEnterAnimation">-->
+<!--            @anim/slide_in_right</item>-->
+<!--        <item name="android:fragmentOpenExitAnimation">-->
+<!--            @anim/slide_out_left</item>-->
+<!--        <item name="android:fragmentCloseEnterAnimation">-->
+<!--            @anim/slide_in_left</item>-->
+<!--        <item name="android:fragmentCloseExitAnimation">-->
+<!--            @anim/slide_out_right</item>-->
+    </style>
+</resources>
